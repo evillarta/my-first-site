@@ -1,0 +1,218 @@
+!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Calibri','Candara','Segoe',"Segoe UI",'Optima',Arial,sans-serif;
+    font-size: 15px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*Logo styles*/
+span.logo img{
+    width: 350px;
+    height: 45px;
+    margin-top: -10px
+}
+.nav{
+    float: right;
+}
+/* /logostyles*/
+/*navigation styles*/
+.navbar-ex1-collapse{
+    font-size: 24px;
+}
+/* / nagivation styles*/
+/*resposiveness*/
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}/* /resposiveness*/
+
+/*Content styles*/
+/*Intro styles*/
+.intro-section {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.intro-section img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+    width: 100%;
+    height: 100%;
+}
+.banner_text{
+    z-index: 100;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    top:350px;
+    left:0px;
+
+}
+.banner_text p.banner-header{
+    background-color: rgba(0,0,0,.1);
+}
+.btn-link{
+    color: cyan;
+}
+.btn-link:hover{
+    color: black;
+}
+.btn-link:focus {
+    color: white;
+}
+/* /intro styles*/
+
+
+/*about styles*/
+.about-section {
+    height:100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #eee;
+}
+/* /about styles*/
+/*service styles*/
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}/* /service styles*/
+/*gallery styles*/
+.gallery-section {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #eee;
+}
+.gallery-content{
+    margin-left: -15px;
+}
+.gallery-content img{
+    margin-bottom: 20px;
+    transition: all .2s ease-in-out;
+}
+.gallery-content a {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.gallery-content img:hover {
+    transform: rotate(2deg);
+    box-shadow: 0 0 7px rgba(0,0 ,0 , .5);
+    border: 1px solid cyan;
+    opacity: 0.8;
+}
+/* /gallery styles*/
+/*contact styles*/
+
+section#contact {
+  background-color: #222222;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: cyan;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+/* /contact styles*/
+/*footer styles*/
+.footer-section{
+    height: 100px;
+    padding: 5px;
+    background: rgba(30,30,30,0.7);
+}
+.footer-section p{
+    color: #fff;
+}
+/*--/content styles*/
+/*custom design */
+hr {
+  background: #f7f9fa;
+  height: 6px;
+  background-image: -webkit-linear-gradient(left, cyan, cyan 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
+  background-image: -moz-linear-gradient(left, cyan, cyan 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
+  background-image: -ms-linear-gradient(left, cyan, cyan 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
+  background-image: linear-gradient(to right, cyan, cyan 25%, #9b59b6 25%, #9b59b6 35%, #3498db 35%, #3498db 45%, #62cb31 45%, #62cb31 55%, #ffb606 55%, #ffb606 65%, #e67e22 65%, #e67e22 75%, #e74c3c 85%, #e74c3c 85%, #c0392b 85%, #c0392b 100%);
+  background-size: 100% 6px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  text-align: center;
+  border-radius: 10;
+}
